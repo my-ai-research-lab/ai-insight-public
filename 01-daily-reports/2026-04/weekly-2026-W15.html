@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 周报 - 2026年第15周（04.06-04.12）</title>
+  <meta name="description" content="AI周报第15周：入口与治理双竞赛、AI Coding场景化选型、企业转型先治理后规模化" />
+  <style>
+    :root{--bg:#f8fafc;--card:#fff;--text:#0f172a;--muted:#64748b;--line:#e2e8f0;--primary:#2563eb;--ok:#059669}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{max-width:920px;margin:0 auto;padding:24px 16px}
+    .hero{background:linear-gradient(135deg,#1d4ed8,#2563eb);color:#fff;border-radius:14px;padding:24px 22px;margin-bottom:16px}
+    .hero h1{margin:0 0 6px;font-size:26px}.sub{opacity:.9;font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:14px 0 20px}
+    .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+    .kpi .v{font-size:20px;font-weight:700}.kpi .l{font-size:12px;color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:12px}
+    h2{margin:0 0 10px;font-size:18px} h3{margin:0 0 8px;font-size:16px} h4{margin:10px 0 6px;font-size:15px}
+    table{width:100%;border-collapse:collapse;font-size:13px} th,td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:left}
+    th{background:#f8fafc;color:#334155}
+    .muted{color:var(--muted)}
+    .top li{margin:10px 0}
+    .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#eff6ff;color:#1d4ed8;font-size:12px}
+    .index a{display:inline-block;padding:5px 10px;background:#eff6ff;color:#1d4ed8;border-radius:999px;text-decoration:none}
+    .index a:hover{text-decoration:underline}
+    .footer{font-size:12px;color:var(--muted);text-align:center;padding:14px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>AI 周报 · 2026年第15周</h1>
+      <div class="sub">04月06日 — 04月12日 · 覆盖7期日报 · 约90条资讯</div>
+    </section>
+
+    <section class="grid">
+      <div class="kpi"><div class="v">$178B</div><div class="l">Q1基础AI融资</div></div>
+      <div class="kpi"><div class="v">7.36万亿</div><div class="l">中国周Token调用</div></div>
+      <div class="kpi"><div class="v">18%</div><div class="l">Claude Code工作使用率</div></div>
+      <div class="kpi"><div class="v">57k</div><div class="l">DeerFlow 2.0 Star</div></div>
+      <div class="kpi"><div class="v">95%</div><div class="l">企业AI试点失败率</div></div>
+    </section>
+
+    <section class="card">
+      <h2>📋 本周概览</h2>
+      <table>
+        <thead><tr><th>板块</th><th>要点数</th><th>关键事件</th></tr></thead>
+        <tbody>
+          <tr><td>🧠 大模型</td><td>18条</td><td>Mythos封存；OpenAI超级App；DeepSeek新旗舰预热</td></tr>
+          <tr><td>⌨️ AI Coding</td><td>16条</td><td>Claude Code追平Cursor；VS Code周更；横评场景化</td></tr>
+          <tr><td>📱 AI 应用</td><td>18条</td><td>DeerFlow登顶；AI内容监管落地；企业Agent规模化</td></tr>
+          <tr><td>🏭 AI 行业</td><td>20条</td><td>融资极化；并购提速；反AGI社会情绪上升</td></tr>
+          <tr><td>🔄 企业转型</td><td>18条</td><td>Agent治理平台崛起；组织问题成主变量</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card top">
+      <h2>🔥 本周 Top 5</h2>
+      <ol>
+        <li><b>OpenAI超级App战略</b>（OpenAI/Fortune，4/8）：模型公司向入口平台升级，竞争中心转向分发控制权。</li>
+        <li><b>Anthropic封存Mythos</b>（NYT/Anthropic，4/7）：首次“能力过强不公开”，治理能力成为核心护城河。</li>
+        <li><b>Q1基础AI融资$178B</b>（Crunchbase，4/8）：三强吸纳96.6%资金，基础层寡头化持续加深。</li>
+        <li><b>Claude Code追平Cursor</b>（JetBrains/Medium，4/7-4/9）：AI Coding进入按场景选型阶段。</li>
+        <li><b>95%企业AI试点失败</b>（斯坦福研究转引，4/12）：根因在组织流程，不在模型能力。</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>🔮 周度洞察</h2>
+      <h4><span class="tag">洞察1</span> 入口 + 治理双竞赛</h4>
+      <p class="muted">OpenAI押注统一入口，Anthropic押注安全治理。2026年的胜负不再只看基准分，而是看谁能同时拿下用户入口与可信治理。</p>
+      <h4><span class="tag">洞察2</span> AI Coding进入组合式生产力</h4>
+      <p class="muted">企业从单工具采购转向多工具编排，代码理解、治理能力、成本结构成为三大决策轴。</p>
+      <h4><span class="tag">洞察3</span> 企业转型先治理后规模化</h4>
+      <p class="muted">监管与失败率数据共振，企业部署节奏趋稳，流程重构能力成为ROI兑现关键。</p>
+    </section>
+
+    <section class="card">
+      <h2>📊 本周数据总览</h2>
+      <table>
+        <thead><tr><th>指标</th><th>数值</th><th>备注</th></tr></thead>
+        <tbody>
+          <tr><td>Q1基础AI融资</td><td>$178B</td><td>三强占96.6%</td></tr>
+          <tr><td>OpenAI估值</td><td>$8520亿</td><td>融资后新高</td></tr>
+          <tr><td>中国周Token调用</td><td>7.36万亿</td><td>连续五周领先</td></tr>
+          <tr><td>Claude Code工作使用率</td><td>18%</td><td>与Cursor持平</td></tr>
+          <tr><td>DeerFlow 2.0星数</td><td>57k</td><td>GitHub Trending登顶</td></tr>
+          <tr><td>AI漫剧市场规模</td><td>168亿元</td><td>监管后重构</td></tr>
+          <tr><td>企业AI试点失败率</td><td>95%</td><td>主要归因组织问题</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>📅 本周日报索引</h2>
+      <table class="index">
+        <thead><tr><th>日期</th><th>核心关键词</th><th>链接</th></tr></thead>
+        <tbody>
+          <tr><td>04-06 周一</td><td>豆包120万亿、Q1创投3000亿</td><td><a href="2026-04-06.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-07 周二</td><td>Claude Opus基准、DeerFlow升温</td><td><a href="2026-04-07.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-08 周三</td><td>Mythos封存、OpenAI超级App</td><td><a href="2026-04-08.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-09 周四</td><td>融资极化、Claude追平Cursor</td><td><a href="2026-04-09.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-10 周五</td><td>GPT-5.3 Mini、微软Agent Framework</td><td><a href="2026-04-10.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-11 周六</td><td>安全前置发布、Copilot政策变化</td><td><a href="2026-04-11.html" target="_blank">查看日报</a></td></tr>
+          <tr><td>04-12 周日</td><td>反AGI事件、95%转型失败警示</td><td><a href="2026-04-12.html" target="_blank">查看日报</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="footer">Link AI · AI 周报 · W15 · 2026-04-13</div>
+  </div>
+</body>
+</html>
